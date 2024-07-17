@@ -8,6 +8,10 @@ header {
     color: white;
 }
 img {
-    height: 40%;
-    width: 60%;
+    height: 10%;
+    width: 20%;
+    
+}
+.background1 {
+    background-color: #529cf1
 }
