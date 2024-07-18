@@ -23,7 +23,6 @@
 .main {
     display: flex;
     flex-direction: column;
-    height: 700px;
 }
 .background1 {
     background-color: #529cf1; 
