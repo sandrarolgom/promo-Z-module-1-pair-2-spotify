@@ -10,6 +10,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: sticky;
+    left: 0;
+    top: 0;
 }
 .logo {
     height: 10%;
@@ -26,8 +29,9 @@
 }
 .background1 {
     background-color: #529cf1; 
-    height: 50%;
+    
 }
 .footer {
     background-color: black;
+    color: white;
 }
