@@ -28,7 +28,9 @@
 .background1 {
     background-color: #529cf1; 
     height: 50vh;
-    
+}
+.dancer {
+    display: none;
 }
 .footer {
     background-color: black;
@@ -38,12 +40,32 @@
     .nav {
         display: block;
     }
-    .burguer {
+    .figure {
         display: none;
-        background-color: pink;
     }
-    /* .nav ul {
+    .nav ul {
         display: flex;
-        
-    } */
+        list-style: none;
+        gap: 15px;
+    }
+    .dancer {
+        display: block;
+        position: absolute;
+    }
 }
+/* @media all and (min-width: 1000) {
+    .nav {
+        display: block;
+    }
+    .figure {
+        display: none;
+    }
+    .nav ul {
+        display: flex;
+        list-style: none;
+        gap: 15px;
+    }
+    .dancer {
+        display: block;
+    }
+} */
