@@ -3,3 +3,24 @@
     height: 50vh;
     color: white;
     }
+    .dancer {
+        display: none;
+    }
+    @media all and (min-width: 700px) {
+        .nav {
+            display: block;
+        }
+        .figure {
+            display: none;
+        }
+        .nav ul {
+            display: flex;
+            list-style: none;
+            gap: 15px;
+        }
+        .background1 {
+            background-image: url(/public/images/premium_dancer.png);
+            background-repeat: no-repeat;
+            background-position: right bottom;
+        }
+    }
